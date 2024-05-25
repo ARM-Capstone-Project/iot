@@ -1,0 +1,6 @@
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/model/SensorReading.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/config/ElasticsearchClientConfig.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/controller/SensorReadingController.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/service/SensorReadingService.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/repository/SensorReadingRepository.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/IotApplication.java

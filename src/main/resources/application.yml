@@ -1,0 +1,16 @@
+spring:
+  elasticsearch:
+    repositories:
+      enabled: true
+    uris: https://812f1966c0e94b07a22210fb1326f2c3.us-central1.gcp.cloud.es.io
+    port: 9243
+    cluster-nodes: 812f1966c0e94b07a22210fb1326f2c3:9243
+    username: elastic
+    password: 5WRtWj0sDm03gI9v9Nruq9zR
+    connectionRequest-Timeout: 60000
+    connection-timeout: 5000
+    socket-timeout: 60000
+    max-connection: 60
+    index:
+      number_of_shards: 1
+      number_of_replicas: 1

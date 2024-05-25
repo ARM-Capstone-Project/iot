@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "properties": {
+      "id": { "type": "keyword" },
+      "createdBy": { "type": "keyword" },
+      "createdDate": { "type": "date" },
+      "lastModifiedBy": { "type": "keyword" },
+      "lastModifiedDate": { "type": "date" },
+      "deviceId": { "type": "keyword" },
+      "timestamp": { "type": "date" },
+      "temperature_f": { "type": "float" },
+      "temperature_c": { "type": "float" },
+      "humidity": { "type": "float" }
+    }
+  }
+}

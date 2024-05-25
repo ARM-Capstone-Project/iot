@@ -1,0 +1,6 @@
+com/alco/iot/service/SensorReadingService.class
+com/alco/iot/model/SensorReading.class
+com/alco/iot/IotApplication.class
+com/alco/iot/config/ElasticsearchClientConfig.class
+com/alco/iot/controller/SensorReadingController.class
+com/alco/iot/repository/SensorReadingRepository.class
