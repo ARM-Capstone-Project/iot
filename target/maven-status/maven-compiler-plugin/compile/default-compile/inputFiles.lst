@@ -3,4 +3,7 @@
 /Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/controller/SensorReadingController.java
 /Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/service/SensorReadingService.java
 /Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/repository/SensorReadingRepository.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/model/LocationData.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/model/Device.java
 /Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/IotApplication.java
+/Users/myapwintcho/Documents/nus/alco/iot/src/main/java/com/alco/iot/model/AreaInformation.java

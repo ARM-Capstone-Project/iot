@@ -1,16 +1,16 @@
 package com.alco.iot.model;
 import lombok.Data;
-import lombok.Getter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.time.LocalDateTime;
 @Data
-@Getter
 @Document(indexName = "sensor_readings")
 public class SensorReading {
     @Id
@@ -23,7 +23,8 @@ public class SensorReading {
     private String lastModifiedBy;
     @LastModifiedDate
     private LocalDateTime lastModifiedDate;
-    private String deviceId;
+    @Field(type = FieldType.Nested)
+    private Device deviceId;
     private LocalDateTime timestamp;
     private float temperature_f;
     private float temperature_c;

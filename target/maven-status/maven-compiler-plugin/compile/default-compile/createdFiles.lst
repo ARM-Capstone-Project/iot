@@ -1,6 +1,9 @@
+com/alco/iot/model/Device.class
+com/alco/iot/model/AreaInformation.class
 com/alco/iot/service/SensorReadingService.class
 com/alco/iot/model/SensorReading.class
 com/alco/iot/IotApplication.class
 com/alco/iot/config/ElasticsearchClientConfig.class
 com/alco/iot/controller/SensorReadingController.class
 com/alco/iot/repository/SensorReadingRepository.class
+com/alco/iot/model/LocationData.class
